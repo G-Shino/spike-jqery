@@ -1,0 +1,28 @@
+body{
+  color: #3f4548;
+}
+
+.accordion-title{
+  margin: 0;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  font-size: 1rem;
+}
+
+.accordion-title a{
+  display: block;
+  padding: 6px;
+  color: #3f4548;
+  text-decoration: none;
+}
+
+.accordion-content{
+  display: none;
+  height: 60px;
+  padding: 12px 6px;
+  border: 1px solid #ccc;
+}
+
+.accordion-content.accordion-content-active{
+  display: block;
+}
