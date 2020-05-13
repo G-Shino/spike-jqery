@@ -1,0 +1,41 @@
+p {
+  margin: 0 0 1em 0;
+}
+
+.parallax-section {
+  height: 100vh;
+  width: 100%;
+  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallax-section-1 {
+  background-image: url(./../src/resources/cat1.jpg);
+}
+.parallax-section-2 {
+  background-image: url(./../src/resources/cat2.jpg);
+}
+.parallax-section-3 {
+  background-image: url(./../src/resources/cat3.jpg);
+}
+.parallax-section-4 {
+  background-image: url(./../src/resources/cat4.jpg);
+}
+
+.text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 2rem;
+  color: #eee;
+  
+  text-shadow:
+  -1px -1px 6px #000,
+  1px -1px 6px #000,
+  -1px 1px 6px #000,
+  1px 1px 6px #000;
+}
